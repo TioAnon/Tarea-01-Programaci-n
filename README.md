@@ -1,4 +1,4 @@
-# Tarea-01-Programaci-n
+# Tarea-01-Programacion-POO
 # Sistema de Gestión de Rutinas de Entrenamiento - UNAB 2026
 
 Este proyecto es una aplicación de consola robusta desarrollada en **C++** para la asignatura de **Paradigmas de Programación**. El software permite a los instructores gestionar un catálogo de ejercicios y generar rutinas automatizadas basadas en reglas de negocio específicas de intensidad y frecuencia.
