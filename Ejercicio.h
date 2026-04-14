@@ -30,6 +30,9 @@ public:
     std::string getIntensidad() const { return intensidad; }
     int getTiempo() const { return tiempoMinutos; }
     int getSemana() const { return ultimaSemanaUsado; }
+    void setNombre(std::string n) { nombre = n; }
+    void setTiempo(int t) { tiempoMinutos = t; }
+    void setSemana(int s) { ultimaSemanaUsado = s; }
 };
 
 #endif
