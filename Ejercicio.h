@@ -10,7 +10,7 @@ protected:
     int tiempoMinutos, ultimaSemanaUsado;
 
 public:
-    // He añadido la implementación del constructor aquí mismo para asegurar que funcione
+    // 
     Ejercicio(std::string c, std::string n, std::string i, int t, std::string d, int s)
         : codigo(c), nombre(n), intensidad(i), tiempoMinutos(t), descripcion(d), ultimaSemanaUsado(s) {}
     
@@ -18,7 +18,7 @@ public:
 
     virtual void mostrarInfo() const = 0; 
 
-    // Getters y Setters que ya tenías (están perfectos)
+    // Getters y Setters
     std::string getCodigo() const { return codigo; }
     std::string getIntensidad() const { return intensidad; }
     int getTiempo() const { return tiempoMinutos; }
